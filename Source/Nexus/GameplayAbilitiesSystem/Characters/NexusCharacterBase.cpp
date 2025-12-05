@@ -136,4 +136,3 @@ void ANexusCharacterBase::Server_SendGameplayEventToSelf_Implementation(FGamepla
 {
 	UAbilitySystemBlueprintLibrary::SendGameplayEventToActor(this, EventData.EventTag, EventData);
 }
-
